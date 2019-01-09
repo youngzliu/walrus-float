@@ -1,9 +1,16 @@
 img {
-  float: left;
+  float: right;
+  align-self: center;
+  width: 40%;
+  padding: 1.5%;
 }
 
 h1 {
   text-align: center;
+}
+
+body {
+  background-color: skyblue;
 }
 
 .godlike {
@@ -17,6 +24,23 @@ h1 {
 }
 
 .column {
-  width: 300px;
+  width: 19%;
   float: left;
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 700px){
+  img{
+    width: 472px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px){
+  img{
+    width: 472px;
+    float: left;
+    padding: 20px;
+  }
 }
